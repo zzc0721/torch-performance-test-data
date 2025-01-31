@@ -35,13 +35,21 @@ git clone https://github.com/zzc0721/torch-performence-test-data.git
 cd torch-performence-test-data
 ```
 ### 2.安装依赖
-推荐使用最新的torch版本以及cudatoolkit，可以参考以下方法安装
+
+1. 默认使用poetry作为虚拟环境管理，使用以下命令安装：
+
+```bash
+poetry install
+```
+2. 或使用最新的torch版本以及cudatoolkit，可以参考以下方法安装：
+
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
+
 ### 3.运行
 ```bash
-python test.py
+poetry run python test.py
 ```
 运行完之后如需提交数据可以直接将运行结果发在issue，或是按照 [database.md](database.md) 的格式向本仓库提交PR
 
