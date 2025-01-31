@@ -21,14 +21,31 @@
 - GPU设备信息
 - 各精度下的TFLOPS性能指标
 
-## 贡献者
-- [zzc0208](https://github.com/zzc0208)
-- [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)
-- [turning point](https://github.com/colstone)  (算法是他做的)
-
 ## 已经测试过的数据
 
 - [database.md](database.md)
 
 您也可以通过提交issue或PR的方式，添加您测试过的数据。
 
+## 如何运行
+
+### 1.克隆仓库
+```bash
+git clone https://github.com/zzc0721/torch-performence-test-data.git
+cd torch-performence-test-data
+```
+### 2.安装依赖
+推荐使用最新的torch版本以及cudatoolkit，可以参考以下方法安装
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+```
+### 3.运行
+```bash
+python test.py
+```
+运行完之后如需提交数据可以直接将运行结果发在issue，或是按照 [database.md](database.md) 的格式向本仓库提交PR
+
+## 贡献者
+- [zzc0208](https://github.com/zzc0208)
+- [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)
+- [turning point](https://github.com/colstone)  (算法是他做的)
