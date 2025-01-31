@@ -6,4 +6,4 @@
 | RTX4070S-12g | 22.68 | 75.61 | 75.36 | 实体机，py310+torch241 | [zzc0208](https://github.com/zzc0208) |
 | RTX4060laptop-8g | 9.08 | 30.82 | 30.87 | 笔记本，py312+torch260 | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161) |
 | RTX3060laptop-6g | 7.83 | 25.70 | 25.85 | 笔记本，py310+torch251 | [turning point](https://github.com/colstone) |
-
+| RTX4090-24G | 52.30 | 148.49 | 145.69 | 实体机，py310+torch240 | [Charming](https://space.bilibili.com/399248533) |
