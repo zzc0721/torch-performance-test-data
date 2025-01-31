@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "torch-performence-test-data"
+version = "0.1.0"
+description = ""
+authors = ["zzc0721","colstone"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = { version = "^2.6.0", source = "cuda-torch" }
+torchvision = { version = "^0.21.0", source = "cuda-torch" }
+torchaudio = { version = "^2.6.0", source = "cuda-torch" }
+markupsafe = { version = "^3.0.2", source = "tsinghua" }
+nvidia-cublas-cu12 = { version = "^12.6.4.1", source = "cuda-torch" }
+nvidia-cuda-nvrtc-cu12 = { version = "^12.6.77", source = "cuda-torch" }
+nvidia-cuda-cupti-cu12 = { version = "^12.6.80", source = "cuda-torch" }
+nvidia-cuda-runtime-cu12 = { version = "^12.6.77", source = "cuda-torch" }
+nvidia-cudnn-cu12 = { version = "^9.5.1.17", source = "cuda-torch" }
+nvidia-cufft-cu12 = { version = "^11.3.0.4", source = "cuda-torch" }
+nvidia-curand-cu12 = { version = "^10.3.7.77", source = "cuda-torch" }
+nvidia-cusolver-cu12 = { version = "^11.7.1.2", source = "cuda-torch" }
+nvidia-cusparse-cu12 = { version = "^12.5.4.2", source = "cuda-torch" }
+nvidia-cusparselt-cu12 = { version = "^0.6.3", source = "cuda-torch" }
+nvidia-nccl-cu12 = { version = "^2.23.4", source = "cuda-torch" }
+nvidia-nvjitlink-cu12 = { version = "^12.6.85", source = "cuda-torch" }
+nvidia-nvtx-cu12 = { version = "^12.6.77", source = "cuda-torch" }
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "cuda-torch"
+url = "https://download.pytorch.org/whl/cu126"
+priority = "primary"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "supplemental"
+
