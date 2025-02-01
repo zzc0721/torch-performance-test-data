@@ -9,3 +9,4 @@
 | RTX4090-24G      | 52.30 | 148.49 | 145.69 | 实体机，py310+torch240                 | [Charming](https://space.bilibili.com/399248533)  |
 | TeslaM40-12G     | 3.61  | 2.88   | 1.94   | 实体机，py312+torch260                 | [barryblueice](https://github.com/barryblueice)   |
 |RTX3050TiLaptop-4G| 5.99  | 18.34  | 18.67  | 实体机，py310+torch260                 | [barryblueice](https://github.com/barryblueice)   |
+| RTX4090-24G      | 54.77 | 171.06 | 173.31 | 实体机，py310+torch241，archlinux系统   | [sd0ric4](https://github.com/sd0ric4)             |
