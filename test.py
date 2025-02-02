@@ -46,6 +46,8 @@ if __name__ == "__main__":
     device_name = torch.cuda.get_device_name(0)
     print(f"测试设备: {device_name}")
     print(f"显存大小: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB\n")
+    print(f"Python版本: {sys.version}")
+    print(f"PyTorch版本: {torch.__version__}")
 
     # 测试不同精度和矩阵大小
     matrix_sizes = [1024, 2048, 4096, 8192, 10240]
