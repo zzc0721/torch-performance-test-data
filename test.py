@@ -1,5 +1,6 @@
 import torch
 import time
+import sys
 
 def benchmark_precision(precision, matrix_size, warmup=6, test_iters=30):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
