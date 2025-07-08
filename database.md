@@ -1,6 +1,6 @@
 | device             | fp32  | fp16   | bf16   | note                                   | contributor                                    |
 |--------------------|-------|--------|--------|----------------------------------------|------------------------------------------------|
-| NVIDIA B200-180g   | 66.24 | 1627.64 | 1696.03 | GCP实例a4-highgpu-8g，py312+torch271  | [zzc0208](https://github.com/zzc0208)          |
+| NVIDIA B200-180g   | 66.24 | 1627.64 | 1696.03 | GCP实例a4-highgpu-8g，py312+torch280  | [zzc0208](https://github.com/zzc0208)          |
 | Tesla V100s-32g    | 13.55 | 88.92  | 9.85   | docker容器云，仅供参考，py310+torch220 | [zzc0208](https://github.com/zzc0208)          |
 | NVIDIA A100-40g    | 18.11 | 247.63 | 246.33 | docker容器云，仅供参考，py310+torch220 | [zzc0208](https://github.com/zzc0208)          |
 | RTX3090-24g        | 24.46 | 75.64  | 76.34  | 实体机，py313+torch260                 | [zzc0208](https://github.com/zzc0208)          |
