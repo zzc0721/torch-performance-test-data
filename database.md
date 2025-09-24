@@ -4,6 +4,7 @@
 | Tesla V100s-32g    | 13.55 | 88.92  | 9.85   | docker容器云，仅供参考，py310+torch220 | [zzc0208](https://github.com/zzc0208)          |
 | NVIDIA A100-40g    | 18.11 | 247.63 | 246.33 | docker容器云，仅供参考，py310+torch220 | [zzc0208](https://github.com/zzc0208)          |
 | RTX5090Laptop-24G  | 28.58 | 95.68  | 97.13  | 实体机，py310+torch280                 | [Charming](https://github.com/aiguoliuguo)|
+| RTX5090-32G        | 69.55 | 223.94 | 236.10 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
 | RTX3090-24g        | 24.46 | 75.64  | 76.34  | 实体机，py313+torch260                 | [zzc0208](https://github.com/zzc0208)          |
 | RTX4070S-12g       | 24.60 | 75.93  | 76.76  | 实体机，py310+torch251                 | [zzc0208](https://github.com/zzc0208)          |
 | RTX4060laptop-8g   | 9.08  | 30.82  | 30.87  | 笔记本，py312+torch260                 | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)  |
