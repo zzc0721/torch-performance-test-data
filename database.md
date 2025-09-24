@@ -14,4 +14,5 @@
 | RTX4090-24G        | 54.77 | 171.06 | 173.31 | 实体机，py310+torch241，archlinux系统  | [sd0ric4](https://github.com/sd0ric4)          |
 | Tesla P4-8G        | 4.96  | 4.80   | 2.82   | 实体机，py312+torch222                 | [kaiserKOA](https://github.com/kaiserKOA)      |
 | RTX4090D-48G       | 51.41 | 155.5  | 151.09 | docker容器云，仅供参考，py310+torch260 | [turning point](https://github.com/colstone)   |
-| NVIDIA RTX4090-24G | 46.48 | 162.35 | 162.39 | docker容器云（优云智算），py310.14+torch240+cu121，23.6GB显存 | [HuanLin](https://github.com/HuanLinOTO) |                                      |
+| NVIDIA RTX4090-24G | 46.48 | 162.35 | 162.39 | docker容器云（优云智算），py310.14+torch240+cu121，23.6GB显存 | [HuanLin](https://github.com/HuanLinOTO) |
+| RTX 5090-32G       | 69.16 | 224.41 | 236.03 | 智算云扉5090实例，仅供参考，py310+torch280 | [HuanLin](https://github.com/HuanLinOTO) |
