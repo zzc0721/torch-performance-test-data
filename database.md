@@ -25,6 +25,7 @@
 | RTX 5090-32G       | 69.16 | 224.41 | 236.03 | 智算云扉5090实例，仅供参考，py310+torch280 | [HuanLin](https://github.com/HuanLinOTO) |
 | NVIDIA GeForce RTX 3090 | 24.84 | 75.88 | 76.68 | **智算云扉3090 24G ,仅供参考,py310+torch280** | **[a-cold-bird](https://github.com/a-cold-bird)** |
 | NVIDIA GeForce RTX 4090D 48G DDR5 | 49.05 | 149.15 | 145.77 | **智算云扉4090D 48G DDR5 ,仅供参考,py310+torch280** | **[a-cold-bird](https://github.com/a-cold-bird)** |
-| NVIDIA GeForce RTX 4090 | 53.79 | 167.27 | 162.43 | **智算云扉4090 48G DDR5 ,仅供参考,py310+torch280** | ***[a-cold-bird](https://github.com/a-cold-bird)** |
+| NVIDIA GeForce RTX 4090 | 53.79 | 167.27 | 162.43 | **智算云扉4090 48G DDR5 ,仅供参考,py310+torch280** | **[a-cold-bird](https://github.com/a-cold-bird)** |
 | NVIDIA GeForce RTX 4090 D | 50.07 | 152.64 | 148.91 | **智算云扉4090 24G ,仅供参考,py310+torch280** | **[a-cold-bird](https://github.com/a-cold-bird)** |
 | NVIDIA GeForce RTX 4090 | 54.67 | 167.80 | 163.09 | **智算云扉4090 24G DDR5 ,仅供参考,py310+torch280** | **[a-cold-bird](https://github.com/a-cold-bird)** |
+| NVIDIA H100 80GB HBM3 | 403.74 | 761.84 | 789.24 | docker容器云, py3123+torch280cu126 | [HaxxorCialtion](https://github.com/HaxxorCialtion) |
