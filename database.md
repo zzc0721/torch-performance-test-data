@@ -5,6 +5,12 @@
 | NVIDIA A100-40g    | 18.11 | 247.63 | 246.33 | docker容器云，仅供参考，py310+torch220 | [zzc0208](https://github.com/zzc0208)          |
 | RTX5090Laptop-24G  | 28.58 | 95.68  | 97.13  | 实体机，py310+torch280                 | [Charming](https://github.com/aiguoliuguo)|
 | RTX4090-48G        | 54.69 | 158.93 | 160.53 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| RTX2080-8G         | 9.23 | 39.03 | 5.14 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| RTX3080Ti-12G      | 24.37 | 75.56 | 76.47 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| Tesla P40-24G      | 10.07 | 10.02 | 5.26 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| NVIDIA A100-SXM4-80GB | 19.18 | 258.74 | 264.53 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| NVIDIA A800-SXM4-80GB | 19.08 | 266.04 | 266.48 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
+| NVIDIA H20-96G     | 31.95 | 141.73 | 141.86 | docker容器云，仅供参考，py310+torch280+cu128 | [Charming](https://github.com/aiguoliuguo)|
 | RTX3090-24g        | 24.46 | 75.64  | 76.34  | 实体机，py313+torch260                 | [zzc0208](https://github.com/zzc0208)          |
 | RTX4070S-12g       | 24.60 | 75.93  | 76.76  | 实体机，py310+torch251                 | [zzc0208](https://github.com/zzc0208)          |
 | RTX4060laptop-8g   | 9.08  | 30.82  | 30.87  | 笔记本，py312+torch260                 | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)  |
