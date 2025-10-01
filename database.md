@@ -1,36 +1,36 @@
-| device | fp32 | fp16 | bf16 | note | contributor |
-|--------|------|------|------|------|-------------|
-| NVIDIA B200 180GB | 66.24 | 1627.64 | 1696.03 | GCP a4-highgpu-8g 实例；Python 3.12 + PyTorch 2.8.0 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA Tesla V100S 32GB | 13.55 | 88.92 | 9.85 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.2.0 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA Tesla T4 16GB | 4.17 | 41.91 | 2.46 | Google Colab; Python 3.12 + PyTorch 2.8.0 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA A100 40GB | 18.11 | 247.63 | 246.33 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.2.0 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA RTX 5090 Laptop 24GB | 28.58 | 95.68 | 97.13 | 实体机；Python 3.10 + PyTorch 2.8.0 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA RTX 4090 48GB | 54.69 | 158.93 | 160.53 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA RTX 2080 8GB | 9.23 | 39.03 | 5.14 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA RTX 3080 Ti 12GB | 24.37 | 75.56 | 76.47 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA Tesla P40 24GB | 10.07 | 10.02 | 5.26 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA A100 SXM4 80GB | 19.18 | 258.74 | 264.53 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA A800 SXM4 80GB | 19.08 | 266.04 | 266.48 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA H20 96GB | 31.95 | 141.73 | 141.86 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA RTX 3090 24GB | 24.46 | 75.64 | 76.34 | 实体机；Python 3.13 + PyTorch 2.6.0 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA RTX 4070 SUPER 12GB | 24.60 | 75.93 | 76.76 | 实体机；Python 3.10 + PyTorch 2.5.1 | [zzc0208](https://github.com/zzc0208) |
-| NVIDIA RTX 4060 Laptop 8GB | 9.08 | 30.82 | 30.87 | 笔记本；Python 3.12 + PyTorch 2.6.0 | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161) |
-| NVIDIA RTX 3060 Laptop 6GB | 7.83 | 25.70 | 25.85 | 笔记本；Python 3.10 + PyTorch 2.5.1 | [turning point](https://github.com/colstone) |
-| NVIDIA RTX 4090 24GB | 55.01 | 165.08 | 170.06 | 实体机；Python 3.10 + PyTorch 2.4.0 | [Charming](https://github.com/aiguoliuguo) |
-| NVIDIA Tesla M40 12GB | 3.61 | 2.88 | 1.94 | 实体机；Python 3.12 + PyTorch 2.6.0 | [barryblueice](https://github.com/barryblueice) |
-| NVIDIA RTX 3050 Ti Laptop 4GB | 5.99 | 18.34 | 18.67 | 实体机；Python 3.10 + PyTorch 2.6.0 | [barryblueice](https://github.com/barryblueice) |
-| NVIDIA RTX 4090 24GB | 54.77 | 171.06 | 173.31 | 实体机；Python 3.10 + PyTorch 2.4.1；Arch Linux | [sd0ric4](https://github.com/sd0ric4) |
-| NVIDIA Tesla P4 8GB | 4.96 | 4.80 | 2.82 | 实体机；Python 3.12 + PyTorch 2.2.2 | [kaiserKOA](https://github.com/kaiserKOA) |
-| NVIDIA RTX 4090D 48GB | 51.41 | 155.5 | 151.09 | Docker 容器云（参考）；Python 3.10 + PyTorch 2.6.0 | [turning point](https://github.com/colstone) |
-| NVIDIA RTX 4090 24GB | 46.48 | 162.35 | 162.39 | Docker 容器云（优云智算，参考）；Python 3.10.14 + PyTorch 2.4.0 + CUDA 12.1；显存 23.6GB | [HuanLin](https://github.com/HuanLinOTO) |
-| NVIDIA RTX 5090 32GB | 69.16 | 224.41 | 236.03 | 智算云扉 5090 实例（参考）；Python 3.10 + PyTorch 2.8.0 | [HuanLin](https://github.com/HuanLinOTO) |
-| NVIDIA GeForce RTX 3090 24GB | 24.84 | 75.88 | 76.68 | 智算云扉 3090 实例（参考）；Python 3.10 + PyTorch 2.8.0 | [a-cold-bird](https://github.com/a-cold-bird) |
-| NVIDIA GeForce RTX 4090D 48GB | 49.05 | 149.15 | 145.77 | 智算云扉 4090D 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存 | [a-cold-bird](https://github.com/a-cold-bird) |
-| NVIDIA GeForce RTX 4090 48GB | 53.79 | 167.27 | 162.43 | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存 | [a-cold-bird](https://github.com/a-cold-bird) |
-| NVIDIA GeForce RTX 4090D 24GB | 50.07 | 152.64 | 148.91 | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0 | [a-cold-bird](https://github.com/a-cold-bird) |
-| NVIDIA GeForce RTX 4090 24GB | 54.67 | 167.80 | 163.09 | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存 | [a-cold-bird](https://github.com/a-cold-bird) |
-| NVIDIA H100 80GB HBM3 | 403.74 | 761.84 | 789.24 | Docker 容器云；Python 3.12.3 + PyTorch 2.8.0 + CUDA 12.6 | [HaxxorCialtion](https://github.com/HaxxorCialtion) |
-| NVIDIA RTX PRO 6000 Workstation 96G | 77.24 | 315.51 | 417.98 | 实体机；Python 3.13 + PyTorch 2.8.0 | [AlfreSama](https://github.com/AlfreScarlet) |
-| Ascend 910ProA (Ascend PyTorch) | 39.83 | 110.01 | 1.11 | openi； 仅供参考，910有硬件向量缓存，基准测试不准 | [HuanLinOTO](https://github.com/HuanLinOTO)  |
-| Hygon DCU K100_AI | 21.75 | 88.03 | 90.01 | openi；py31016，torch241 | [HuanLinOTO](https://github.com/HuanLinOTO)  |
-| AMD Radeon RX 7900 XT | 23.03 | 81.83 | 83.18 | docker; py312+torch280 rocm700(git64359f59) | [cp-yu](https://github.com/cp-yu) |
+| device                              | fp32   | fp16    | bf16    | fp8 e4m3fn | note                                                                                     | contributor                                         |
+| ----------------------------------- | ------ | ------- | ------- | ---------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| NVIDIA B200 180GB                   | 66.24  | 1627.64 | 1696.03 |            | GCP a4-highgpu-8g 实例；Python 3.12 + PyTorch 2.8.0                                      | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA Tesla V100S 32GB             | 13.55  | 88.92   | 9.85    |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.2.0                                       | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA Tesla T4 16GB                | 4.17   | 41.91   | 2.46    |            | Google Colab; Python 3.12 + PyTorch 2.8.0                                                | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA A100 40GB                    | 18.11  | 247.63  | 246.33  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.2.0                                       | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA RTX 5090 Laptop 24GB         | 28.58  | 95.68   | 97.13   |            | 实体机；Python 3.10 + PyTorch 2.8.0                                                      | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA RTX 4090 48GB                | 54.69  | 158.93  | 160.53  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA RTX 2080 8GB                 | 9.23   | 39.03   | 5.14    |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA RTX 3080 Ti 12GB             | 24.37  | 75.56   | 76.47   |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA Tesla P40 24GB               | 10.07  | 10.02   | 5.26    |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA A100 SXM4 80GB               | 19.18  | 258.74  | 264.53  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA A800 SXM4 80GB               | 19.08  | 266.04  | 266.48  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA H20 96GB                     | 31.95  | 141.73  | 141.86  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA RTX 3090 24GB                | 24.46  | 75.64   | 76.34   |            | 实体机；Python 3.13 + PyTorch 2.6.0                                                      | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA RTX 4070 SUPER 12GB          | 24.60  | 75.93   | 76.76   |            | 实体机；Python 3.10 + PyTorch 2.5.1                                                      | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA RTX 4060 Laptop 8GB          | 9.08   | 30.82   | 30.87   |            | 笔记本；Python 3.12 + PyTorch 2.6.0                                                      | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)       |
+| NVIDIA RTX 3060 Laptop 6GB          | 7.83   | 25.70   | 25.85   |            | 笔记本；Python 3.10 + PyTorch 2.5.1                                                      | [turning point](https://github.com/colstone)        |
+| NVIDIA RTX 4090 24GB                | 55.01  | 165.08  | 170.06  |            | 实体机；Python 3.10 + PyTorch 2.4.0                                                      | [Charming](https://github.com/aiguoliuguo)          |
+| NVIDIA Tesla M40 12GB               | 3.61   | 2.88    | 1.94    |            | 实体机；Python 3.12 + PyTorch 2.6.0                                                      | [barryblueice](https://github.com/barryblueice)     |
+| NVIDIA RTX 3050 Ti Laptop 4GB       | 5.99   | 18.34   | 18.67   |            | 实体机；Python 3.10 + PyTorch 2.6.0                                                      | [barryblueice](https://github.com/barryblueice)     |
+| NVIDIA RTX 4090 24GB                | 54.77  | 171.06  | 173.31  |            | 实体机；Python 3.10 + PyTorch 2.4.1；Arch Linux                                          | [sd0ric4](https://github.com/sd0ric4)               |
+| NVIDIA Tesla P4 8GB                 | 4.96   | 4.80    | 2.82    |            | 实体机；Python 3.12 + PyTorch 2.2.2                                                      | [kaiserKOA](https://github.com/kaiserKOA)           |
+| NVIDIA RTX 4090D 48GB               | 51.41  | 155.5   | 151.09  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.6.0                                       | [turning point](https://github.com/colstone)        |
+| NVIDIA RTX 4090 24GB                | 46.48  | 162.35  | 162.39  |            | Docker 容器云（优云智算，参考）；Python 3.10.14 + PyTorch 2.4.0 + CUDA 12.1；显存 23.6GB | [HuanLin](https://github.com/HuanLinOTO)            |
+| NVIDIA RTX 5090 32GB                | 69.16  | 224.41  | 236.03  |            | 智算云扉 5090 实例（参考）；Python 3.10 + PyTorch 2.8.0                                  | [HuanLin](https://github.com/HuanLinOTO)            |
+| NVIDIA GeForce RTX 3090 24GB        | 24.84  | 75.88   | 76.68   |            | 智算云扉 3090 实例（参考）；Python 3.10 + PyTorch 2.8.0                                  | [a-cold-bird](https://github.com/a-cold-bird)       |
+| NVIDIA GeForce RTX 4090D 48GB       | 49.05  | 149.15  | 145.77  |            | 智算云扉 4090D 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存                      | [a-cold-bird](https://github.com/a-cold-bird)       |
+| NVIDIA GeForce RTX 4090 48GB        | 53.79  | 167.27  | 162.43  |            | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存                       | [a-cold-bird](https://github.com/a-cold-bird)       |
+| NVIDIA GeForce RTX 4090D 24GB       | 50.07  | 152.64  | 148.91  |            | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0                                  | [a-cold-bird](https://github.com/a-cold-bird)       |
+| NVIDIA GeForce RTX 4090 24GB        | 54.67  | 167.80  | 163.09  |            | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存                       | [a-cold-bird](https://github.com/a-cold-bird)       |
+| NVIDIA H100 80GB HBM3               | 403.74 | 761.84  | 789.24  |            | Docker 容器云；Python 3.12.3 + PyTorch 2.8.0 + CUDA 12.6                                 | [HaxxorCialtion](https://github.com/HaxxorCialtion) |
+| NVIDIA RTX PRO 6000 Workstation 96G | 77.24  | 315.51  | 417.98  |            | 实体机；Python 3.13 + PyTorch 2.8.0                                                      | [AlfreSama](https://github.com/AlfreScarlet)        |
+| Ascend 910ProA (Ascend PyTorch)     | 39.83  | 110.01  | 1.11    |            | openi； 仅供参考，910 有硬件向量缓存，基准测试不准                                       | [HuanLinOTO](https://github.com/HuanLinOTO)         |
+| Hygon DCU K100_AI                   | 21.75  | 88.03   | 90.01   |            | openi；py31016，torch241                                                                 | [HuanLinOTO](https://github.com/HuanLinOTO)         |
+| AMD Radeon RX 7900 XT               | 23.03  | 81.83   | 83.18   |            | docker; py312+torch280 rocm700(git64359f59)                                              | [cp-yu](https://github.com/cp-yu)                   |
