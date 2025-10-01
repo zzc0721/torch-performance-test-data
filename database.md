@@ -34,3 +34,5 @@
 | Ascend 910ProA (Ascend PyTorch)     | 39.83  | 110.01  | 1.11    |            | openi； 仅供参考，910 有硬件向量缓存，基准测试不准                                       | [HuanLinOTO](https://github.com/HuanLinOTO)         |
 | Hygon DCU K100_AI                   | 21.75  | 88.03   | 90.01   |            | openi；py31016，torch241                                                                 | [HuanLinOTO](https://github.com/HuanLinOTO)         |
 | AMD Radeon RX 7900 XT               | 23.03  | 81.83   | 83.18   |            | docker; py312+torch280 rocm700(git64359f59)                                              | [cp-yu](https://github.com/cp-yu)                   |
+| NVIDIA Tesla T4 16GB                | 4.43   | 42.71   | 2.27    |            | Kaggle; Python 3.11.13 + PyTorch 2.6.0 + CUDA 12.4                                       | [sxjeru](https://github.com/sxjeru)                 |
+| NVIDIA RTX 4070 Laptop 8GB          | 15.37  | 46.30   | 64.41   |            | 笔记本; Python 3.12.6 + PyTorch 2.8.0 + CUDA 12.6                                        | [sxjeru](https://github.com/sxjeru)                 |
