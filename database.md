@@ -31,4 +31,6 @@
 | NVIDIA GeForce RTX 4090 24GB | 54.67 | 167.80 | 163.09 | 智算云扉 4090 实例（参考）；Python 3.10 + PyTorch 2.8.0；DDR5 显存 | [a-cold-bird](https://github.com/a-cold-bird) |
 | NVIDIA H100 80GB HBM3 | 403.74 | 761.84 | 789.24 | Docker 容器云；Python 3.12.3 + PyTorch 2.8.0 + CUDA 12.6 | [HaxxorCialtion](https://github.com/HaxxorCialtion) |
 | NVIDIA RTX PRO 6000 Workstation 96G | 77.24 | 315.51 | 417.98 | 实体机；Python 3.13 + PyTorch 2.8.0 | [AlfreSama](https://github.com/AlfreScarlet) |
-| Ascend 910ProA (Ascend PyTorch) | 39.83 | 110.01 | 1.11 | 仅供参考，910有硬件向量缓存，基准测试不准 | [HuanLinOTO](https://github.com/HuanLinOTO)  |
+| Ascend 910ProA (Ascend PyTorch) | 39.83 | 110.01 | 1.11 | openi； 仅供参考，910有硬件向量缓存，基准测试不准 | [HuanLinOTO](https://github.com/HuanLinOTO)  |
+| Hygon DCU K100_AI | 21.75 | 88.03 | 90.01 | openi；py31016，torch241 | [HuanLinOTO](https://github.com/HuanLinOTO)  |
+
