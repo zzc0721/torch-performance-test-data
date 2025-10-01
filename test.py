@@ -3,6 +3,7 @@ import time
 import sys
 import urllib.parse
 import platform
+from traceback import print_exc
 
 
 def generate_github_issue_link(device_name, results):
@@ -21,6 +22,7 @@ def generate_github_issue_link(device_name, results):
     fp32_result = results.get("FP32", "N/A")
     fp16_result = results.get("FP16", "N/A")
     bf16_result = results.get("BF16", "N/A")
+    fp8_result = results.get("FP8 E4M3FN", "N/A")
 
     if fp32_result != "N/A":
         fp32_result = f"{fp32_result:.2f}"
@@ -28,6 +30,8 @@ def generate_github_issue_link(device_name, results):
         fp16_result = f"{fp16_result:.2f}"
     if bf16_result != "N/A":
         bf16_result = f"{bf16_result:.2f}"
+    if fp8_result != "N/A":
+        fp8_result = f"{fp8_result:.2f}"
 
     # 构建简化的issue内容
     body = f"""## 设备信息
@@ -37,7 +41,7 @@ def generate_github_issue_link(device_name, results):
 
 ## 性能数据
 ```
-| {device_name} | {fp32_result} | {fp16_result} | {bf16_result} | **请填写note** | **请填写contributor** |
+| {device_name} | {fp32_result} | {fp16_result} | {bf16_result} | {fp8_result} | **请填写note** | **请填写contributor** |
 ```
 
 ## 填写说明
@@ -65,7 +69,7 @@ def generate_github_issue_link(device_name, results):
     print("\n📊 性能数据摘要：")
     print(f"设备：{device_name}")
     print(
-        f"FP32: {fp32_result} TFLOPS | FP16: {fp16_result} TFLOPS | BF16: {bf16_result} TFLOPS"
+        f"FP32: {fp32_result} TFLOPS | FP16: {fp16_result} TFLOPS | BF16: {bf16_result} TFLOPS | FP8: {fp8_result} TFLOPS"
     )
     print("\n🔗 提交数据请点击以下链接：")
     print(f"{issue_url}")
@@ -83,9 +87,28 @@ def benchmark_precision(precision, matrix_size, warmup=6, test_iters=30):
 
     # 初始化矩阵
     try:
-        a = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
-        b = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
+        if precision == torch.int8:
+            # INT8 特殊处理
+            a = torch.randint(
+                -128, 127, (matrix_size, matrix_size), dtype=precision, device=device
+            )
+            b = torch.randint(
+                -128, 127, (matrix_size, matrix_size), dtype=precision, device=device
+            )
+        elif precision == torch.float8_e4m3fn:
+            # FP8 特殊处理
+            a = torch.randn(matrix_size, matrix_size, device=device)
+            b = torch.randn(matrix_size, matrix_size, device=device)
+            # 防止全为0，重新赋值非零随机数
+            a = a + torch.randn_like(a) * 1e-3
+            b = b + torch.randn_like(b) * 1e-3
+            a = a.to(dtype=precision)
+            b = b.to(dtype=precision)
+        else:
+            a = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
+            b = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
     except RuntimeError as e:
+        print_exc()
         if "not implemented" in str(e):
             return None
         raise
@@ -133,6 +156,8 @@ if __name__ == "__main__":
         ("FP32", torch.float32),
         ("FP16", torch.float16),
         ("BF16", torch.bfloat16),
+        ("FP8 E4M3FN", torch.float8_e4m3fn),
+        # ("INT8", torch.int8),  # 可选：如果需要测试INT8
     ]
 
     results = {}
