@@ -6,6 +6,38 @@ import platform
 from traceback import print_exc
 
 
+def get_accelerator_device():
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        device_name = torch.cuda.get_device_name(0)
+        total_memory_gb = (
+            torch.cuda.get_device_properties(0).total_memory / 1024**3
+        )
+        return device, device_name, total_memory_gb
+
+    mps_backend = getattr(torch.backends, "mps", None)
+    if mps_backend is not None and mps_backend.is_available():
+        device = torch.device("mps")
+        device_name = "Apple MPS"
+        return device, device_name, None
+
+    return None, None, None
+
+
+def synchronize_device(device):
+    if device.type == "cuda":
+        torch.cuda.synchronize()
+    elif device.type == "mps":
+        torch.mps.synchronize()
+
+
+def empty_device_cache(device):
+    if device.type == "cuda":
+        torch.cuda.empty_cache()
+    elif device.type == "mps":
+        torch.mps.empty_cache()
+
+
 def generate_github_issue_link(device_name, results):
     """生成GitHub issue链接，包含预填充的测试数据"""
 
@@ -80,10 +112,9 @@ def generate_github_issue_link(device_name, results):
     print("3. 包含特定关键字的note将被自动归类")
 
 
-def benchmark_precision(precision, matrix_size, warmup=6, test_iters=30):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if device.type == "cpu":
-        raise RuntimeError("需要CUDA显卡进行测试")
+def benchmark_precision(precision, matrix_size, device, warmup=6, test_iters=30):
+    if device.type not in ("cuda", "mps"):
+        raise RuntimeError("当前仅支持CUDA或MPS设备进行测试")
 
     # 初始化矩阵
     try:
@@ -108,21 +139,22 @@ def benchmark_precision(precision, matrix_size, warmup=6, test_iters=30):
             a = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
             b = torch.randn(matrix_size, matrix_size, dtype=precision, device=device)
     except RuntimeError as e:
-        print_exc()
-        if "not implemented" in str(e):
+        message = str(e).lower()
+        if "not implemented" in message or "not support" in message:
             return None
+        print_exc()
         raise
 
     # 预热
     for _ in range(warmup):
         torch.mm(a, b)
-    torch.cuda.synchronize()
+    synchronize_device(device)
 
     # 正式测试
     start_time = time.time()
     for _ in range(test_iters):
         torch.mm(a, b)
-    torch.cuda.synchronize()
+    synchronize_device(device)
     elapsed = time.time() - start_time
 
     # 计算FLOPS
@@ -132,21 +164,23 @@ def benchmark_precision(precision, matrix_size, warmup=6, test_iters=30):
 
     # 清理显存
     del a, b
-    torch.cuda.empty_cache()
+    empty_device_cache(device)
 
     return tflops
 
 
 if __name__ == "__main__":
-    if not torch.cuda.is_available():
-        print("未检测到CUDA设备")
+    device, device_name, total_memory_gb = get_accelerator_device()
+    if device is None:
+        print("未检测到CUDA或MPS设备")
         exit(1)
 
-    device_name = torch.cuda.get_device_name(0)
     print(f"测试设备: {device_name}")
-    print(
-        f"显存大小: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB\n"
-    )
+    if total_memory_gb is not None:
+        print(f"显存大小: {total_memory_gb:.1f} GB\n")
+    elif device.type == "mps":
+        print("使用Apple MPS图形加速器\n")
+
     print(f"Python版本: {sys.version}")
     print(f"PyTorch版本: {torch.__version__}")
 
@@ -156,9 +190,17 @@ if __name__ == "__main__":
         ("FP32", torch.float32),
         ("FP16", torch.float16),
         ("BF16", torch.bfloat16),
-        ("FP8 E4M3FN", torch.float8_e4m3fn),
         # ("INT8", torch.int8),  # 可选：如果需要测试INT8
     ]
+
+    try:
+        fp8_precision = torch.float8_e4m3fn
+    except AttributeError:
+        fp8_precision = None
+        print("PyTorch 当前不支持 FP8 E4M3FN，跳过该项测试")
+
+    if fp8_precision is not None:
+        precisions.append(("FP8 E4M3FN", fp8_precision))
 
     results = {}
     for precision_name, precision in precisions:
@@ -167,7 +209,7 @@ if __name__ == "__main__":
 
         for size in matrix_sizes:
             print(f"测试矩阵大小: {size}x{size}")
-            tflops = benchmark_precision(precision, size)
+            tflops = benchmark_precision(precision, size, device)
             if tflops is not None:
                 results[precision_name].append((size, tflops))
                 print(f"  性能: {tflops:.2f} TFLOPS")
