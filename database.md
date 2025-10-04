@@ -41,3 +41,4 @@
 | Apple M4 10CPU+10GPU 24GB | 2.88 | 1.57 | 1.87 |  | 笔记本；MacBook Air 13.2' 2025 24+512 ; Python 3.13.5 + PyTorch 2.8.0 + MPS | [sakmist](https://github.com/sakmist) |
 | NVIDIA Tesla T10 16GB   | 9.46 | 59.27 | 5.33 |  | 实体机；12400 d4内存条; Python 3.12.10 + PyTorch 2.8.0+cu126 | [sakmist](https://github.com/sakmist) |
 | NVIDIA RTX 5090 32GB   | 67.57 | 237.63 | 242.18 |  | 实体机；14700k d5内存条; Python 3.11.11 + PyTorch 2.7.1+cu128 | [sakmist](https://github.com/sakmist) |
+| Apple M3 Max 16CPU+40GPU 60GB | 11.50 | 12.84 | 11.25 | N/A | 笔记本 | [gouzil](https://github.com/gouzil) |
