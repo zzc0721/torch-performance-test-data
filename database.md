@@ -15,6 +15,7 @@
 | NVIDIA RTX 3090 24GB                | 24.46  | 75.64   | 76.34   |            | 实体机；Python 3.13 + PyTorch 2.6.0                                                      | [zzc0208](https://github.com/zzc0208)               |
 | NVIDIA RTX 4070 SUPER 12GB          | 24.60  | 75.93   | 76.76   |            | 实体机；Python 3.10 + PyTorch 2.5.1                                                      | [zzc0208](https://github.com/zzc0208)               |
 | NVIDIA RTX 4060 Laptop 8GB          | 9.08   | 30.82   | 30.87   |            | 笔记本；Python 3.12 + PyTorch 2.6.0                                                      | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)       |
+| NVIDIA GeForce RTX 5050 Laptop GPU  | 9.56   | 26.76   | 27.03   |            | 笔记本；i7-13650HX；16G D5内存；Python 3.11.13 + PyTorch 2.8.0+cu128                      | [VanillaNahida](https://github.com/VanillaNahida)  |
 | NVIDIA RTX 3060 Laptop 6GB          | 7.83   | 25.70   | 25.85   |            | 笔记本；Python 3.10 + PyTorch 2.5.1                                                      | [turning point](https://github.com/colstone)        |
 | NVIDIA RTX 4090 24GB                | 55.01  | 165.08  | 170.06  |            | 实体机；Python 3.10 + PyTorch 2.4.0                                                      | [Charming](https://github.com/aiguoliuguo)          |
 | NVIDIA Tesla M40 12GB               | 3.61   | 2.88    | 1.94    |            | 实体机；Python 3.12 + PyTorch 2.6.0                                                      | [barryblueice](https://github.com/barryblueice)     |
