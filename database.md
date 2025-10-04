@@ -38,3 +38,6 @@
 | NVIDIA RTX 4070 Laptop 8GB          | 15.37  | 46.30   | 64.41   |            | 笔记本; Python 3.12.6 + PyTorch 2.8.0 + CUDA 12.6                                        | [sxjeru](https://github.com/sxjeru)                 |
 | NVIDIA GeForce RTX 4060 Ti 16GB | 11.50 | 59.38 | 42.65 | 12.27 | 实体机；测自 SVCFusion 整合包 | [HuanLinOTO](https://github.com/HuanLinOTO) |
 | Apple M4 10CPU+10GPU 24GB | 2.98 | 3.12 | 2.92 |  | 笔记本；MacBook Air 15.3' 2025 24+512 ; Python 3.12.11 + PyTorch 2.8.0 + MPS | [zzc0208](https://github.com/zzc0208) |
+| Apple M4 10CPU+10GPU 24GB | 2.88 | 1.57 | 1.87 |  | 笔记本；MacBook Air 13.2' 2025 24+512 ; Python 3.13.5 + PyTorch 2.8.0 + MPS | [sakmist](https://github.com/sakmist) |
+| NVIDIA Tesla T10 16GB   | 9.46 | 59.27 | 5.33 |  | 实体机；12400 d4内存条; Python 3.12.10 + PyTorch 2.8.0+cu126 | [sakmist](https://github.com/sakmist) |
+| NVIDIA RTX 5090 32GB   | 67.57 | 237.63 | 242.18 |  | 实体机；14700k d5内存条; Python 3.11.11 + PyTorch 2.7.1+cu128 | [sakmist](https://github.com/sakmist) |
