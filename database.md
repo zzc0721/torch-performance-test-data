@@ -36,4 +36,5 @@
 | AMD Radeon RX 7900 XT               | 23.03  | 81.83   | 83.18   |            | docker; py312+torch280 rocm700(git64359f59)                                              | [cp-yu](https://github.com/cp-yu)                   |
 | NVIDIA Tesla T4 16GB                | 4.43   | 42.71   | 2.27    |            | Kaggle; Python 3.11.13 + PyTorch 2.6.0 + CUDA 12.4                                       | [sxjeru](https://github.com/sxjeru)                 |
 | NVIDIA RTX 4070 Laptop 8GB          | 15.37  | 46.30   | 64.41   |            | 笔记本; Python 3.12.6 + PyTorch 2.8.0 + CUDA 12.6                                        | [sxjeru](https://github.com/sxjeru)                 |
-| NVIDIA GeForce RTX 4060 Ti | 11.50 | 59.38 | 42.65 | 12.27 | 实体机；测自 SVCFusion 整合包 | [HuanLinOTO](https://github.com/HuanLinOTO) |
+| NVIDIA GeForce RTX 4060 Ti 16GB | 11.50 | 59.38 | 42.65 | 12.27 | 实体机；测自 SVCFusion 整合包 | [HuanLinOTO](https://github.com/HuanLinOTO) |
+| Apple M4 10CPU+10GPU 24GB | 2.98 | 3.12 | 2.92 |  | 笔记本；MacBook Air 15.3' 2025 24+512 | [zzc0208](https://github.com/zzc0208) |
