@@ -43,3 +43,4 @@
 | NVIDIA RTX 5090 32GB   | 67.57 | 237.63 | 242.18 |  | 实体机；14700k d5内存条; Python 3.11.11 + PyTorch 2.7.1+cu128 | [sakmist](https://github.com/sakmist) |
 | Apple M3 Max 16CPU+40GPU 60GB | 11.50 | 12.84 | 11.25 | N/A | 笔记本 | [gouzil](https://github.com/gouzil) |
 | NVIDIA GeForce RTX 5090 D v2 | 66.97 | 228.57 | 232.22 | N/A | 实体机 | [richi-shek](https://github.com/richi-shek) |
+| AMD Radeon 780M Graphics | 2.80 | 4.53 | 4.55 | N/A | 笔记本 | [TheSmallHanCat](https.github.com/TheSmallHanCat) |
