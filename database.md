@@ -44,3 +44,4 @@
 | Apple M3 Max 16CPU+40GPU 60GB | 11.50 | 12.84 | 11.25 | N/A | 笔记本 | [gouzil](https://github.com/gouzil) |
 | NVIDIA GeForce RTX 5090 D v2 | 66.97 | 228.57 | 232.22 | N/A | 实体机 | [richi-shek](https://github.com/richi-shek) |
 | AMD Radeon 780M Graphics | 2.80 | 4.53 | 4.55 | N/A | 笔记本 | [TheSmallHanCat](https.github.com/TheSmallHanCat) |
+| NVIDIA GeForce RTX 5060 Laptop 8GB | 12.88 | 37.65 | 37.89 | N/A | 笔记本；Python 3.14.0rc3 + PyTorch 2.10.0.dev20250930+cu130 | [Citrinae-Lime](https://github.com/Citrinae-Lime) |
