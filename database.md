@@ -14,6 +14,7 @@
 | NVIDIA H20 96GB                     | 31.95  | 141.73  | 141.86  |            | Docker 容器云（参考）；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                           | [Charming](https://github.com/aiguoliuguo)          |
 | NVIDIA RTX 3090 24GB                | 24.46  | 75.64   | 76.34   |            | 实体机；Python 3.13 + PyTorch 2.6.0                                                      | [zzc0208](https://github.com/zzc0208)               |
 | NVIDIA RTX 4070 SUPER 12GB          | 24.60  | 75.93   | 76.76   |            | 实体机；Python 3.10 + PyTorch 2.5.1                                                      | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA RTX 4070 SUPER 12GB          | 25.07  | 74.73   | 73.63   |            | 实体机；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                                          | [RepentStar](https://github.com/RepentStar)         |
 | NVIDIA RTX 4060 Laptop 8GB          | 9.08   | 30.82   | 30.87   |            | 笔记本；Python 3.12 + PyTorch 2.6.0                                                      | [KAl(SO₄)₂·12H₂O](https://github.com/CN17161)       |
 | NVIDIA RTX 3060 Laptop 6GB          | 7.83   | 25.70   | 25.85   |            | 笔记本；Python 3.10 + PyTorch 2.5.1                                                      | [turning point](https://github.com/colstone)        |
 | NVIDIA RTX 4090 24GB                | 55.01  | 165.08  | 170.06  |            | 实体机；Python 3.10 + PyTorch 2.4.0                                                      | [Charming](https://github.com/aiguoliuguo)          |
@@ -36,11 +37,11 @@
 | AMD Radeon RX 7900 XT               | 23.03  | 81.83   | 83.18   |            | docker; py312+torch280 rocm700(git64359f59)                                              | [cp-yu](https://github.com/cp-yu)                   |
 | NVIDIA Tesla T4 16GB                | 4.43   | 42.71   | 2.27    |            | Kaggle; Python 3.11.13 + PyTorch 2.6.0 + CUDA 12.4                                       | [sxjeru](https://github.com/sxjeru)                 |
 | NVIDIA RTX 4070 Laptop 8GB          | 15.37  | 46.30   | 64.41   |            | 笔记本; Python 3.12.6 + PyTorch 2.8.0 + CUDA 12.6                                        | [sxjeru](https://github.com/sxjeru)                 |
-| NVIDIA GeForce RTX 4060 Ti 16GB | 11.50 | 59.38 | 42.65 | 12.27 | 实体机；测自 SVCFusion 整合包 | [HuanLinOTO](https://github.com/HuanLinOTO) |
-| Apple M4 10CPU+10GPU 24GB | 2.98 | 3.12 | 2.92 |  | 笔记本；MacBook Air 15.3' 2025 24+512 ; Python 3.12.11 + PyTorch 2.8.0 + MPS | [zzc0208](https://github.com/zzc0208) |
-| Apple M4 10CPU+10GPU 24GB | 2.88 | 1.57 | 1.87 |  | 笔记本；MacBook Air 13.2' 2025 24+512 ; Python 3.13.5 + PyTorch 2.8.0 + MPS | [sakmist](https://github.com/sakmist) |
-| NVIDIA Tesla T10 16GB   | 9.46 | 59.27 | 5.33 |  | 实体机；12400 d4内存条; Python 3.12.10 + PyTorch 2.8.0+cu126 | [sakmist](https://github.com/sakmist) |
-| NVIDIA RTX 5090 32GB   | 67.57 | 237.63 | 242.18 |  | 实体机；14700k d5内存条; Python 3.11.11 + PyTorch 2.7.1+cu128 | [sakmist](https://github.com/sakmist) |
-| Apple M3 Max 16CPU+40GPU 60GB | 11.50 | 12.84 | 11.25 | N/A | 笔记本 | [gouzil](https://github.com/gouzil) |
-| NVIDIA GeForce RTX 5090 D v2 | 66.97 | 228.57 | 232.22 | N/A | 实体机 | [richi-shek](https://github.com/richi-shek) |
-| AMD Radeon 780M Graphics | 2.80 | 4.53 | 4.55 | N/A | 笔记本 | [TheSmallHanCat](https.github.com/TheSmallHanCat) |
+| NVIDIA GeForce RTX 4060 Ti 16GB     | 11.50  | 59.38   | 42.65   | 12.27      | 实体机；测自 SVCFusion 整合包                                                            | [HuanLinOTO](https://github.com/HuanLinOTO)         |
+| Apple M4 10CPU+10GPU 24GB           | 2.98   | 3.12    | 2.92    |            | 笔记本；MacBook Air 15.3' 2025 24+512 ; Python 3.12.11 + PyTorch 2.8.0 + MPS             | [zzc0208](https://github.com/zzc0208)               |
+| Apple M4 10CPU+10GPU 24GB           | 2.88   | 1.57    | 1.87    |            | 笔记本；MacBook Air 13.2' 2025 24+512 ; Python 3.13.5 + PyTorch 2.8.0 + MPS              | [sakmist](https://github.com/sakmist)               |
+| NVIDIA Tesla T10 16GB               | 9.46   | 59.27   | 5.33    |            | 实体机；12400 d4 内存条; Python 3.12.10 + PyTorch 2.8.0+cu126                            | [sakmist](https://github.com/sakmist)               |
+| NVIDIA RTX 5090 32GB                | 67.57  | 237.63  | 242.18  |            | 实体机；14700k d5 内存条; Python 3.11.11 + PyTorch 2.7.1+cu128                           | [sakmist](https://github.com/sakmist)               |
+| Apple M3 Max 16CPU+40GPU 60GB       | 11.50  | 12.84   | 11.25   | N/A        | 笔记本                                                                                   | [gouzil](https://github.com/gouzil)                 |
+| NVIDIA GeForce RTX 5090 D v2        | 66.97  | 228.57  | 232.22  | N/A        | 实体机                                                                                   | [richi-shek](https://github.com/richi-shek)         |
+| AMD Radeon 780M Graphics            | 2.80   | 4.53    | 4.55    | N/A        | 笔记本                                                                                   | [TheSmallHanCat](https.github.com/TheSmallHanCat)   |
