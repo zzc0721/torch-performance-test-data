@@ -46,3 +46,7 @@
 | NVIDIA GeForce RTX 5090 D v2 | 66.97 | 228.57 | 232.22 | N/A | 实体机 | [richi-shek](https://github.com/richi-shek) |
 | AMD Radeon 780M Graphics | 2.80 | 4.53 | 4.55 | N/A | 笔记本 | [TheSmallHanCat](https.github.com/TheSmallHanCat) |
 | NVIDIA GeForce RTX 5060 Laptop 8GB | 12.88 | 37.65 | 37.89 | N/A | 笔记本；Python 3.14.0rc3 + PyTorch 2.10.0.dev20250930+cu130 | [Citrinae-Lime](https://github.com/Citrinae-Lime) |
+| NVIDIA RTX 4070 SUPER 12GB          | 25.07  | 74.73   | 73.63   |            | 实体机；Python 3.10 + PyTorch 2.8.0 + CUDA 12.8                                          | [RepentStar](https://github.com/RepentStar)         |
+| Intel Ultra 7 155H | 3.52 | 7.70 | 3.76 | N/A | 笔记本 | [caih-pi-pi](https://github.com/caih-pi-pi) |
+| NVIDIA H100 80GB HBM3 | 52.11 | 758.14 | 783.66 | N/A | 实体机 | [clow1710](https://github.com/clow1710) |
+| NVIDIA GeForce RTX 4090 48GB | 56.01 | 172.39 | 167.71 | N/A | 实体机 | [Mightlaus](https://github.com/Mightlaus) |
