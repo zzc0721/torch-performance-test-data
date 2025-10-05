@@ -50,3 +50,8 @@
 | Intel Ultra 7 155H | 3.52 | 7.70 | 3.76 | N/A | 笔记本 | [caih-pi-pi](https://github.com/caih-pi-pi) |
 | NVIDIA H100 80GB HBM3 | 52.11 | 758.14 | 783.66 | N/A | 实体机 | [clow1710](https://github.com/clow1710) |
 | NVIDIA GeForce RTX 4090 48GB | 56.01 | 172.39 | 167.71 | N/A | 实体机 | [Mightlaus](https://github.com/Mightlaus) |
+| NVIDIA GeForce RTX 3090 | 24.79 | 75.48 | 76.58 | N/A | 实体机 | [Mightlaus](https://github.com/Mightlaus) |
+| NVIDIA L40S | 46.88 | 264.02 | 269.15 | N/A | docker | [Mightlaus](https://github.com/Mightlaus) |
+| NVIDIA RTX PRO 6000 Blackwell Server Edition | 77.01 | 312.78 | 409.42 | N/A | docker | [Mightlaus](https://github.com/Mightlaus) |
+| NVIDIA H200 | 51.34 | 759.40 | 790.29 | N/A | docker | [Mightlaus](https://github.com/Mightlaus) |
+| NVIDIA RTX A6000 | 23.92 | 120.49 | 123.34 | N/A | docker | [Mightlaus](https://github.com/Mightlaus) |
