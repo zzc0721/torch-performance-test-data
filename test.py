@@ -194,10 +194,17 @@ if __name__ == "__main__":
     ]
 
     try:
+        # 检查FP8类型是否存在并且实际可用
+        test_a = torch.randn(2, 2, device=device).to(torch.float8_e4m3fn)
+        test_b = torch.randn(2, 2, device=device).to(torch.float8_e4m3fn)
+        _ = torch.mm(test_a, test_b)  # 测试实际运算
         fp8_precision = torch.float8_e4m3fn
-    except AttributeError:
+        del test_a, test_b
+    except (AttributeError, RuntimeError) as e:
         fp8_precision = None
         print("PyTorch 当前不支持 FP8 E4M3FN，跳过该项测试")
+        if isinstance(e, RuntimeError):
+            print(f"  原因: {str(e)}")
 
     if fp8_precision is not None:
         precisions.append(("FP8 E4M3FN", fp8_precision))
