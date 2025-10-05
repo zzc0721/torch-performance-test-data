@@ -44,7 +44,7 @@ poetry install
 ```
 使用最新的torch版本以及cudatoolkit，也可以参考以下方法安装：
 ```bash
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129
 ```
 
 ### 3.运行
