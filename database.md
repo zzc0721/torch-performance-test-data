@@ -57,4 +57,9 @@
 | NVIDIA RTX A6000                             | 23.92  |        | 120.49  | 123.34  | docker                                                                                   | [Mightlaus](https://github.com/Mightlaus)           |
 | NVIDIA GeForce RTX 4070 Ti SUPER 16GB        | 30.25  |        | 89.93   | 89.36   | 实体机                                                                                   | [RaruseReiji](https://github.com/RaruseReiji)       |
 | NVIDIA GeForce RTX 3070 8GB                  | 13.69  |        | 43.02   | 41.44   | 实体机                                                                                   | [Nian-Ci](https://github.com/Nian-Ci)               |
-| AMD Radeon RX 7900 XTX                       | 24.78  |        | 90.73   | 84.90   | 实体机; Python 3.13 + PyTorch 2.8.0 + ROCm 6.4                                           | [Orion-zhen](https://github.com/Orion-zhen)
+| AMD Radeon RX 7900 XTX                       | 24.78  |        | 90.73   | 84.90   | 实体机; Python 3.13 + PyTorch 2.8.0 + ROCm 6.4                                           | [Orion-zhen](https://github.com/Orion-zhen)         |
+| NVIDIA GeForce RTX 5060 Laptop GPU           | 13.25  |        | 36.93   | 36.94   | 笔记本；Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [sjzsd147](https://github.com/sjzsd147)             |
+| NVIDIA GeForce GTX 1650 Laptop               | 2.26   |        | 0.34    | 1.63    | 笔记本; Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [A1phaCaO](https://github.com/A1phaCaO)             |
+| NVIDIA GeForce RTX 4090                      | 51.57  |        | 165.94  | 165.71  | 实体机；Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [CharonlYMY](https://github.com/CharonlYMY)         |
+| NVIDIA Tesla V100-SXM2-16GB                  | 14.06  |        | 94.84   | 10.34   | 实体机；Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [hhhhhge](https://github.com/hhhhhge)               |
+
