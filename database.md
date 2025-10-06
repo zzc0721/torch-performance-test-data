@@ -63,3 +63,5 @@
 | NVIDIA GeForce RTX 4090                      | 51.57  |        | 165.94  | 165.71  | 实体机；Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [CharonlYMY](https://github.com/CharonlYMY)         |
 | NVIDIA Tesla V100-SXM2-16GB                  | 14.06  |        | 94.84   | 10.34   | 实体机；Python 3.13 + PyTorch 2.7.1 + CUDA 12.8                                          | [hhhhhge](https://github.com/hhhhhge)               |
 | NVIDIA GeForce RTX 3060 Ti                   | 13.83  | 18.23  | 36.47   | 36.50   | 实体机；Python 3.10 + PyTorch 2.8.0 + CUDA 12.9                                          | [sjzsd147](https://github.com/sjzsd147)             |
+| NVIDIA Tesla P100 PCIE 16GB                  | 8.63   | 8.63   | 8.39    | 6.11    | Kaggle P100 实例；Python 3.10 + PyTorch 2.6.0 + CUDA 12.4                                | [zzc0208](https://github.com/zzc0208)               |
+| NVIDIA Tesla T4 16GB                         | 4.35   | 3.97   | 41.93   | 2.01    | Kaggle T4 x2 实例；Python 3.11 + PyTorch 2.6.0 + CUDA 12.4                               | [zzc0208](https://github.com/zzc0208)               |
