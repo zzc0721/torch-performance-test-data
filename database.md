@@ -57,3 +57,4 @@
 | NVIDIA RTX A6000 | 23.92 | 120.49 | 123.34 | N/A | docker | [Mightlaus](https://github.com/Mightlaus) |
 | NVIDIA GeForce RTX 4070 Ti SUPER 16GB | 30.25 | 89.93 | 89.36 | N/A | 实体机 | [RaruseReiji](https://github.com/RaruseReiji) |
 | NVIDIA GeForce RTX 3070 8GB | 13.69 | 43.02 | 41.44 | N/A | 实体机 | [Nian-Ci](https://github.com/Nian-Ci) |
+| AMD Radeon RX 7900 XTX | 24.78 | 90.73 | 84.90 | N/A | 实体机; Python 3.13 + PyTorch 2.8.0 + ROCm 6.4 | [Orion-zhen](https://github.com/Orion-zhen)
