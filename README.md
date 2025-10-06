@@ -50,7 +50,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ### 3.运行
 使用uv运行
 ```bash
-uv run python test.py
+uv run test.py
 ```
 直接使用python运行
 ```bash
