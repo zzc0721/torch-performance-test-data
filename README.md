@@ -38,9 +38,9 @@ cd torch-performence-test-data
 ```
 
 ### 2.安装依赖
-使用poetry作为虚拟环境管理，使用以下命令安装：
+使用uv作为虚拟环境管理，使用以下命令安装：
 ```bash
-poetry install
+uv sync
 ```
 使用最新的torch版本以及cudatoolkit，也可以参考以下方法安装：
 ```bash
@@ -48,9 +48,9 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 
 ### 3.运行
-使用poetry运行
+使用uv运行
 ```bash
-poetry run python test.py
+uv run python test.py
 ```
 直接使用python运行
 ```bash
