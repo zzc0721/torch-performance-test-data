@@ -72,10 +72,13 @@
 | NVIDIA GeForce RTX 3060 Ti                   | 13.83  | 18.23  | 36.47   | 36.50   | 实体机；Python 3.10 + PyTorch 2.8.0 + CUDA 12.9                                          | [sjzsd147](https://github.com/sjzsd147)              |
 | NVIDIA GeForce RTX 3080 Laptop GPU           | 11.43  | 19.18  | 37.02   | 35.17   | 笔记本; Python 3.13 + PyTorch 2.6.0 + CUDA 12.4                                          | [SPT32422](https://github.com/SPT32422)             |
 | MTT S70                                      | 4.01   | N/A    | 0.39    | N/A     | 实体机; Python 3.10 + PyTorch 2.5.0 + MUSA-SDA 4.2.0 + CPU i3-12100                      | [kakaru](https://github.com/KakaruHayate)           |
-| NVIDIA GeForce RTX 4080 Laptop GPU           | 19.25  | 32.84  | 54.48   | 49.11   | 笔记本；Python 3.11 + PyTorch 2.8.0 + CUDA 12.9                                           | [ZackZhao233](https://github.com/ZackZhao233)       |
-| Apple M4 Max 16CPU+40GPU 64GB                | 13.78  | 13.77  | 14.82   | 13.18   | 笔记本；PyTorch 2.8.0 + MPS                                                               | [Alexw1111
-](https://github.com/Alexw1111)   |
+| NVIDIA GeForce RTX 4080 Laptop GPU           | 19.25  | 32.84  | 54.48   | 49.11   | 笔记本；Python 3.11 + PyTorch 2.8.0 + CUDA 12.9                                           | [ZackZhao233](https://github.com/ZackZhao233)   |
+| Apple M4 Max 16CPU+40GPU 64GB                | 13.78  | 13.77  | 14.82   | 13.18   | 笔记本；PyTorch 2.8.0 + MPS                                                               | [Alexw1111](https://github.com/Alexw1111)   |
 | NVIDIA GeForce RTX 4060                      | 8.34   | 15.60  | 32.64   | 31.21   | 实体机; PyTorch 2.7.0 + CUDA 12.8                                                        | [ytinyu](https://github.com/ytinyui)                |
 | NVIDIA GeForce RTX 5080 Laptop GPU           | 23.26  | 37.80  | 76.15   | 77.11   | 笔记本; PyTorch 2.7.0 + CUDA 12.8                                                        | [Zichen0424](https://github.com/Zichen0424)         |
 | AMD Radeon RX 7900 XTX                       | 25.67  | 25.57  | 97.52   | 93.65   | 实体机; PyTorch 2.10.0dev20251007 + ROCM 7.0                                             | [Boneflame](https://github.com/Boneflame)           |
-
+| NVIDIA GeForce RTX 5070 Ti Laptop GPU        | 17.47  | 29.11  | 54.94   | 59.21   | 笔记本; PyTorch 2.8.0 + CUDA 12.9                                                        | [Dehunc](https://github.com/Dehunc)                 |
+| NVIDIA GeForce RTX 4070 Ti SUPER             | 31.25  | 46.21  | 92.73   | 92.74   | 实体机; PyTorch 2.2.1                                                                    | [Kalt003](https://github.com/WinHGGG)              |
+| NVIDIA GeForce RTX 4070 Ti SUPER *OC         | 33.91  | 50.39  | 99.26   | 99.18   | 实体机; PyTorch 2.8.0 + CUDA 12.8 + OC VRAM@11043MHz Core@3045MHz                        | [Kalt003](https://github.com/WinHGGG)              |
+| NVIDIA RTX A2000 12GB                        | 5.51   | 14.42  | 35.99   | 37.26   | 实体机；PyTorch 2.8.0 + CUDA 12.8                                                         | [UsamiOmega](https://github.com/UsamiOmega)        |
+| NVIDIA GeForce GTX 1650 Ti                   | 2.52   | 2.58   | 0.39    | 1.67    | 笔记本; PyTorch 2.8.0 + CUDA 12.9                                                        | [Pan4v](https://github.com/Pan4v)                  |
