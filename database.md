@@ -83,3 +83,4 @@
 | NVIDIA GeForce RTX 4070 Ti SUPER *OC         | 33.91  | 50.39  | 99.26   | 99.18   | 实体机; PyTorch 2.8.0 + CUDA 12.8 + OC VRAM@11043MHz Core@3045MHz                        | [Kalt003](https://github.com/WinHGGG)              |
 | NVIDIA RTX A2000 12GB                        | 5.51   | 14.42  | 35.99   | 37.26   | 实体机；PyTorch 2.8.0 + CUDA 12.8                                                         | [UsamiOmega](https://github.com/UsamiOmega)        |
 | NVIDIA GeForce GTX 1650 Ti                   | 2.52   | 2.58   | 0.39    | 1.67    | 笔记本; PyTorch 2.8.0 + CUDA 12.9                                                        | [Pan4v](https://github.com/Pan4v)                  |
+| NVIDIA GeForce RTX 5090                      | 63.99  |        | 220.90  | 221.65  | 台式机；9950X + DDR5 32GB 6400 C28x1 ; 测自 SVCFusion 整合包                              | [TendoArisu](https://github.com/XUANHLGG)          |
