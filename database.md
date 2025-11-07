@@ -89,3 +89,4 @@
 | NVIDIA GeForce RTX 4090                      | 53.84  | 85.65  | 168.38  | 164.81  | 派欧云                                                                                   | [xiaoxi68](https://github.com/xiaoxi68)            |
 | NVIDIA GeForce RTX 3080 20G                  | 21.45  | 31.93  | 63.53   | 64.71   | 实体机                                                                                   | [2048Nemo](https://github.com/2048Nemo)            |
 | MTT S4000                                    | 15.61  | 40.64  | 76.75   | 78.18   | AutoDL                                                                                  | [kakaru](https://github.com/KakaruHayate)          |
+| NVIDIA GeForce RTX 5070 Ti | 33.08 | 50.45 | 98.70 | 99.06 | 实体机; WSL2 + PyTorch 2.9.0+cu128 | [dayi](https://github.com/rabbit-dayi) |
