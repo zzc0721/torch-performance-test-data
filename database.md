@@ -92,3 +92,5 @@
 | NVIDIA GeForce RTX 5070 Ti                   | 33.08  | 50.45  | 98.70   | 99.06   | 实体机; WSL2 + PyTorch 2.9.0+cu128                                                       | [dayi](https://github.com/rabbit-dayi)             |
 | NVIDIA GeForce RTX 5060 Ti                   | 17.43  | 24.06  | 47.87   | 48.24   | 实体机; PyTorch 2.9.0+cu128                                                              | [Alkaid-C](https://github.com/Alkaid-C)            |
 | NVIDIA GeForce RTX 5060 Laptop GPU           | 10.62  | 15.53  | 33.16   | 33.33   | 笔记本; PyTorch 2.7.0+cu128                                                              | [Qingchen Jia](https://github.com/QingchenJia)     |
+| NVIDIA GeForce GTX 1660 Ti                   | 5.24   | 5.13   | 0.61    | 2.84    | 实体机                                                                                   | [AnteriorTAg127](https://github.com/AnteriorTAg127)) |
+| NVIDIA TU-AUTO-PROD                          | 7.87   | 56.01  | 4.26    | N/A     | 实体机 (cpu R7-5700G ES-50)                                                              | [denouement-alpha](https://github.com/denouement-alpha) |
