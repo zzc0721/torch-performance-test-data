@@ -103,3 +103,5 @@
 | NVIDIA GeForce RTX 5090                      | 70.47  | 122.19 | 234.63  | 240.05  | 优云智算; PyTorch 2.7.0 + CUDA 12.8                                                       | [mfzzf](https://github.com/mfzzf)                 |
 | NVIDIA RTX A4000                             | 11.90  | 34.32  | 65.44   | 62.78   | 虚拟机; PyTorch 2.8.0 + CUDA 12.9                                                         | [kakaru](https://github.com/KakaruHayate)         |
 | MTT M1000                                    | 1.73   | 3.45   | 7.15    | 7.10    | 笔记本，MDC2025摩尔学院展台，摩尔线程AIBook，长江SoC; PyTorch 2.5.0                            | [kakaru](https://github.com/KakaruHayate)         |
+| NVIDIA GeForce RTX 5070                      | 24.11  | 33.78  | 67.44   | 67.19   | PyTorch 2.7.1 + CUDA 12.8                                                                | [lukezzt8](https://github.com/lukezzt8)           |
+| AMD Radeon RX 7900 XTX                       | 23.28  | 24.14  | 95.35   | 88.09   | 实体机；PyTorch 2.10.0.a0 + ROCM 7.10.0.a20251120                                         | [vatervato](https://github.com/VaterVato)         |
