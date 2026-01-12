@@ -92,7 +92,7 @@
 | NVIDIA GeForce RTX 5070 Ti                   | 33.08  | 50.45  | 98.70   | 99.06   | 实体机; WSL2 + PyTorch 2.9.0+cu128                                                       | [dayi](https://github.com/rabbit-dayi)             |
 | NVIDIA GeForce RTX 5060 Ti                   | 17.43  | 24.06  | 47.87   | 48.24   | 实体机; PyTorch 2.9.0+cu128                                                              | [Alkaid-C](https://github.com/Alkaid-C)            |
 | NVIDIA GeForce RTX 5060 Laptop GPU           | 10.62  | 15.53  | 33.16   | 33.33   | 笔记本; PyTorch 2.7.0+cu128                                                              | [Qingchen Jia](https://github.com/QingchenJia)     |
-| NVIDIA GeForce GTX 1660 Ti                   | 5.24   | 5.13   | 0.61    | 2.84    | 实体机                                                                                   | [AnteriorTAg127](https://github.com/AnteriorTAg127)) |
+| NVIDIA GeForce GTX 1660 Ti                   | 5.24   | 5.13   | 0.61    | 2.84    | 实体机                                                                                   | [AnteriorTAg127](https://github.com/AnteriorTAg127) |
 | NVIDIA TU-AUTO-PROD                          | 7.87   | 56.01  | 4.26    | N/A     | 实体机 (cpu R7-5700G ES-50)                                                              | [denouement-alpha](https://github.com/denouement-alpha) |
 | NVIDIA GeForce RTX 5060                      | 13.33  | 19.24  | 39.63   | 40.12   | 实体机; i7-14700KF; Python 3.13.7 + PyTorch 2.7.0 + CUDA 12.8                            | [Do1e](https://github.com/Do1e)                    |
 | AMD Radeon RX 7700 XT                        | 8.90   | 8.88   | 55.87   | 51.80   | PyTorch 2.6.0 + ROCM 6.4.2-git76481f7c                                                  | [China-Pony](https://github.com/China-Pony)        |
@@ -105,3 +105,26 @@
 | MTT M1000                                    | 1.73   | 3.45   | 7.15    | 7.10    | 笔记本，MDC2025摩尔学院展台，摩尔线程AIBook，长江SoC; PyTorch 2.5.0                            | [kakaru](https://github.com/KakaruHayate)         |
 | NVIDIA GeForce RTX 5070                      | 24.11  | 33.78  | 67.44   | 67.19   | PyTorch 2.7.1 + CUDA 12.8                                                                | [lukezzt8](https://github.com/lukezzt8)           |
 | AMD Radeon RX 7900 XTX                       | 23.28  | 24.14  | 95.35   | 88.09   | 实体机；PyTorch 2.10.0.a0 + ROCM 7.10.0.a20251120                                         | [vatervato](https://github.com/VaterVato)         |
+| NVIDIA GeForce RTX 5080                      | 33.64  | 50.69  | 102.42  | 102.89  | 实体机 | [zhoujiahao111](https://github.com/zhoujiahao111)         |
+| NVIDIA GeForce RTX 3070 Laptop GPU | 11.60 | 17.49 | 34.35 | 33.14 | 笔记本 |[yjzxkxdn](https://github.com/yjzxkxdn)  |
+| CPU (Intel64 Family 6 Model 154 Stepping 3, GenuineIntel, 12th Gen Intel(R) Core(TM) i7-12700H) | 0.56 | N/A | N/A | N/A | 笔记本| [yjzxkxdn](https://github.com/yjzxkxdn)         |
+| NVIDIA L20 | 37.27 | 58.16 | 113.26 | 114.14 | AutoDL |[yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA A100-PCIE-40GB | 17.56 | 108.32 | 241.49 | 234.14 | AutoDL |[yjzxkxdn](https://github.com/yjzxkxdn)|
+| Ascend 910B2 | 84.53 | 84.56 | 314.52 | 315.36 | AutoDL; 仅供参考，910 有硬件向量缓存，基准测试不准 | [yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA Jetson Orin Nano | 1.31 | 4.92 | 10.18 | 10.91 | 实体机 |[yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA GeForce MX450 | 2.10 | 2.38 | 0.36 | 1.56 | 笔记本 |[yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA H800 PCIe | 37.77 | 242.83 | 478.23 | 503.83 | AutoDL | [yjzxkxdn](https://github.com/yjzxkxdn)|
+| CPU (32 vCPU Intel(R) Xeon(R) Gold 6459C) | 4.87 | 4.89 | 4.65 | 28.43 | AutoDL |[yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA GeForce RTX 3080 10GB | 21.07 | 32.03 | 64.10 | 64.68 | AutoDL | [yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA GeForce RTX 2080 Ti 22GB | 13.04 | 12.90 | 58.58 | 7.28 | AutoDL | [yjzxkxdn](https://github.com/yjzxkxdn)|
+| NVIDIA GeForce RTX 5090 Laptop GPU | 28.07 | 44.98 | 89.51 | 83.78 | 笔记本 | [Dalka0064](https://github.com/Dalka0064)|
+| NVIDIA GeForce RTX 3080 Ti | 24.90 | 38.15 | 77.83 | 78.34 | **请填写note** | [datdanboi25](https://github.com/datdanboi25)|
+| NVIDIA GeForce RTX 3070 Ti Laptop GPU | 8.64 | 15.60 | 34.35 | 34.11 |  笔记本 | [datdanboi25](https://github.com/datdanboi25)|
+| NVIDIA GeForce RTX 5060 Laptop GPU | 12.15 | 16.64 | 33.89 | 35.27 |  笔记本 |  [LingHe-9639](https://github.com/LingHe-9639)|
+| NVIDIA L4 | 15.38 | 31.88 | 68.83 | 70.89 | 实体机 |[Arcannite](https://github.com/Arcannite)|
+
+
+
+
+
+
