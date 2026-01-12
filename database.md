@@ -107,7 +107,7 @@
 | AMD Radeon RX 7900 XTX                       | 23.28  | 24.14  | 95.35   | 88.09   | 实体机；PyTorch 2.10.0.a0 + ROCM 7.10.0.a20251120                                         | [vatervato](https://github.com/VaterVato)         |
 | NVIDIA GeForce RTX 5080                      | 33.64  | 50.69  | 102.42  | 102.89  | 实体机 | [zhoujiahao111](https://github.com/zhoujiahao111)         |
 | NVIDIA GeForce RTX 3070 Laptop GPU | 11.60 | 17.49 | 34.35 | 33.14 | 笔记本 |[yjzxkxdn](https://github.com/yjzxkxdn)  |
-| CPU (Intel64 Family 6 Model 154 Stepping 3, GenuineIntel, 12th Gen Intel(R) Core(TM) i7-12700H) | 0.56 | N/A | N/A | N/A | 笔记本| [yjzxkxdn](https://github.com/yjzxkxdn)         |
+| CPU (12th Gen Intel(R) Core(TM) i7-12700H) | 0.56 | N/A | N/A | N/A | 笔记本| [yjzxkxdn](https://github.com/yjzxkxdn)         |
 | NVIDIA L20 | 37.27 | 58.16 | 113.26 | 114.14 | AutoDL |[yjzxkxdn](https://github.com/yjzxkxdn)|
 | NVIDIA A100-PCIE-40GB | 17.56 | 108.32 | 241.49 | 234.14 | AutoDL |[yjzxkxdn](https://github.com/yjzxkxdn)|
 | Ascend 910B2 | 84.53 | 84.56 | 314.52 | 315.36 | AutoDL; 仅供参考，910 有硬件向量缓存，基准测试不准 | [yjzxkxdn](https://github.com/yjzxkxdn)|
