@@ -175,3 +175,12 @@
 | Tesla P100-SXM2-16GB | 9.50 | 9.51 | 8.82 | 5.99 | 未备注 | [rider760](https://github.com/rider760) |
 | NVIDIA GeForce RTX 2080 Ti | 11.52 | 11.90 | 56.78 | 6.95 | 实体机 | [lsfdc233](https://github.com/lsfdc233) |
 | Intel(R) Arc(TM) A770 Graphics | 15.12 | 14.98 | 80.36 | 85.14 | 实体机；win11 32gb i5-14600kf | [Jesselrj](https://github.com/Jesselrj) |
+| NVIDIA GeForce RTX 5060 Laptop GPU | 11.55 | 16.86 | 33.58 | 37.86 | 未备注 | [fishalanp](https://github.com/fishalanp) |
+| NVIDIA GeForce RTX 3070 Ti | 17.00 | 22.87 | 45.80 | 45.79 | 未备注 | [YBA0312](https://github.com/YBA0312) |
+| NVIDIA A40 | 23.73 | 59.52 | 119.18 | 122.29 | 实体机 | [jimtjames](https://github.com/jimtjames) |
+| AMD Radeon RX 6600 XT | 8.35 | 8.38 | 15.61 | 3.07 | 实体机；i5-12400F + 32GB DDR4 RAM (2400MHz) | [musesun727](https://github.com/musesun727) |
+| NVIDIA Graphics Device | 12.33 | 79.49 | 163.12 | 175.72 | 实体机 | [zhiyu52](https://github.com/zhiyu52) |
+| NVIDIA Graphics Device(CMP170HX) | 12.15 | 77.09 | 166.48 | 177.91 | 未备注 | [bendy2](https://github.com/bendy2) |
+| NVIDIA Graphics Device | 12.28 | 80.45 | 162.75 | 174.94 | 未备注 | [litingqu18](https://github.com/litingqu18) |
+| NVIDIA Graphics Device | 25.10 | 38.43 | 76.31 | 77.34 | 实体机 | [ilovesouthpark](https://github.com/ilovesouthpark) |
+| Apple MPS | 4.28 | 4.36 | 4.75 | 2.30 | 笔记本；Python 3.12.9 + PyTorch 2.7.0 + MPS | [salvere002](https://github.com/salvere002) |
