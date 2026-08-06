@@ -2,11 +2,11 @@
 dependencies = [
   "torch>=2.7.0",
 ]
-description = "A CUDA Performance Test Tool"
+description = "A cross-backend GPU GEMM performance benchmark"
 name = "torch-performance-test-data"
 readme = "README.md"
 requires-python = ">=3.10"
-version = "0.1.0"
+version = "0.2.0"
 [tool.uv.sources]
 torch = [
   {index = "pytorch-cu128", marker = "sys_platform == 'linux' or sys_platform == 'win32'"},

@@ -1,3 +1,5 @@
+> **数据口径说明：** 本表现有历史数据大多来自 benchmark v1。v2 从 2026 年 8 月起使用多组中位数、正确性检查、显存预检和严格 TF32 能力判断。v1 与 v2 结果不应视为完全同口径；新增 v2 数据请在 note 中注明 `benchmark v2.x`。
+
 | device                                       | fp32   | tf32   | fp16    | bf16    | note                                                                                     | contributor                                         |
 | -------------------------------------------- | ------ | ------ | ------- | ------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | NVIDIA B200 180GB                            | 66.24  |        | 1627.64 | 1696.03 | GCP a4-highgpu-8g 实例；Python 3.12 + PyTorch 2.8.0                                      | [zzc0208](https://github.com/zzc0208)               |
@@ -40,6 +42,7 @@
 | NVIDIA RTX 4070 Laptop 8GB                   | 15.37  |        | 46.30   | 64.41   | 笔记本; Python 3.12.6 + PyTorch 2.8.0 + CUDA 12.6                                        | [sxjeru](https://github.com/sxjeru)                 |
 | NVIDIA GeForce RTX 4060 Ti 16GB              | 11.50  |        | 59.38   | 42.65   | 实体机；测自 SVCFusion 整合包                                                            | [HuanLinOTO](https://github.com/HuanLinOTO)         |
 | Apple M4 10CPU+10GPU 24GB                    | 2.98   |        | 3.12    | 2.92    | 笔记本；MacBook Air 15.3' 2025 24+512 ; Python 3.12.11 + PyTorch 2.8.0 + MPS             | [zzc0208](https://github.com/zzc0208)               |
+| Apple M1 Max 10CPU+24GPU 32GB                | 5.64   | N/A    | 6.24    | 3.01    | 实体机；Mac Studio；Python 3.12.13 + PyTorch 2.7.0 + MPS；benchmark v2.0                  | [zzc0208](https://github.com/zzc0208)               |
 | Apple M4 10CPU+10GPU 24GB                    | 2.88   |        | 1.57    | 1.87    | 笔记本；MacBook Air 13.2' 2025 24+512 ; Python 3.13.5 + PyTorch 2.8.0 + MPS              | [sakmist](https://github.com/sakmist)               |
 | NVIDIA Tesla T10 16GB                        | 9.46   |        | 59.27   | 5.33    | 实体机；12400 d4内存条; Python 3.12.10 + PyTorch 2.8.0+cu126                             | [sakmist](https://github.com/sakmist)               |
 | NVIDIA RTX 5090 32GB                         | 67.57  |        | 237.63  | 242.18  | 实体机；14700k d5内存条; Python 3.11.11 + PyTorch 2.7.1+cu128                            | [sakmist](https://github.com/sakmist)               |
