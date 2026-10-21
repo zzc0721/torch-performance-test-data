@@ -187,3 +187,5 @@
 | NVIDIA Graphics Device | 12.28 | 80.45 | 162.75 | 174.94 | 未备注 | [litingqu18](https://github.com/litingqu18) |
 | NVIDIA Graphics Device | 25.10 | 38.43 | 76.31 | 77.34 | 实体机 | [ilovesouthpark](https://github.com/ilovesouthpark) |
 | Apple MPS | 4.28 | 4.36 | 4.75 | 2.30 | 笔记本；Python 3.12.9 + PyTorch 2.7.0 + MPS | [salvere002](https://github.com/salvere002) |
+| NVIDIA Tesla V100S-PCIE-32GB | 13.38 | N/A | 85.18 | 9.83 | PVE 虚拟机显卡直通；benchmark v2.0；Python 3.13.5 + PyTorch 2.7.1+cu118（CUDA 11.8） | [dayi](https://github.com/rabbit-dayi) |
+| NVIDIA Tesla V100S-PCIE-32GB | 13.42 | N/A | 88.06 | 9.83 | PVE 虚拟机显卡直通；benchmark v2.0；Python 3.13.5 + PyTorch 2.6.0+cu124（CUDA 12.4） | [dayi](https://github.com/rabbit-dayi) |
